@@ -14,7 +14,7 @@ import hrworker.entities.Worker;
 import hrworker.service.WorkerService;
 
 @RestController
-@RequestMapping("/worker")
+@RequestMapping("/workers")
 public class WorkerController {
 	
 	@Autowired
